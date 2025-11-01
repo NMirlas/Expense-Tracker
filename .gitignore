@@ -1,0 +1,34 @@
+# === Python / FastAPI ===
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Local SQLite DB (לא רוצים לדחוף קובץ מקומי)
+Backend/expense_tracker.db
+
+# === Node / React (Vite) ===
+Frontend/node_modules/
+dist/
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.vite/
+
+# === Environment / Config ===
+.env
+*.env
+
+# === IDE / Editor ===
+.idea/
+.vscode/
+*.iml
+
+# === OS / System Files ===
+.DS_Store
+Thumbs.db
+
+# === Misc ===
+*.cache
+*.sqlite3
